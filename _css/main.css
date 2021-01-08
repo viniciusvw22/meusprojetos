@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+/* Este estilo será aplicado a todas as páginas (em elementos header, footer, etc) */
+
+body {
+   background-color: rgba(138, 210, 238, 0.5);
+}
+
+div#interface {
+  width: 95%;
+  margin: 0px auto 0px auto;
+  background-color: rgb(183, 240, 183);
+  padding: 0px 10px 10px 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 3px rgb(146, 146, 218);
+}
+
+header#cabecalho {
+  border-bottom: 1px solid #606060;
+  height: 132px;
+}
+
+header#cabecalho h1#pagina-titulo {
+  margin-top: 0px;
+}
+
+nav#menu, nav#menu ul, body {
+  margin-top: 0px;
+
+}
+
+nav#menu ul {
+  /*position: relative;*/
+  width: 529px;
+  margin: 0px auto 0px auto;
+  padding: 0px;
+}
+
+nav#menu li {
+  display: inline-block;
+  margin: 0px 4px 0px 4px;
+  padding: 6px 22px 6px 22px;
+  background-color: rgb(4, 214, 216, 0.3); 
+  transition: background-color .2s;
+  /* Toda vez que a propriedade mudar de valor, mude de cor suavemente até alcançar a nova cor escolhida. */
+}
+
+nav#menu a {
+  font-size: 17px;
+  color: #3605FA; /*azul do link do menu*/
+  text-decoration: none;
+}
+
+
+nav#menu li:hover {
+  background-color: #F8FA6C;
+  color: #FAFF91;
+}
+
+main {
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 888px;
+  border-bottom: 1px solid black;
+  display: inline-block;
+}
+
+section#projetos {
+  margin-top: 10px;
+}
+
+section#projetos p {
+  display: inline;
+}
+
+section#projetos button {
+  padding: 5px 10px 5px 10px;
+}
+
+footer#rodape {
+  margin-top: 10px;
+}
+
+footer#rodape p {
+  text-align: center;
+}
+
