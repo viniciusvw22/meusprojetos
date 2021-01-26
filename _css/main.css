@@ -77,6 +77,11 @@ section#projetos button {
   padding: 5px 10px 5px 10px;
 }
 
+section#projetos article {
+  margin-bottom: 10px;
+}
+
+
 footer#rodape {
   margin-top: 10px;
 }
