@@ -69,6 +69,10 @@ section#projetos {
   margin-top: 10px;
 }
 
+section#projetos a {
+  text-decoration: none;
+}
+
 section#projetos p {
   display: inline;
 }
